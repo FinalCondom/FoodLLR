@@ -104,9 +104,7 @@ public class ClientApi {
 	public int update(String food, String id){
 		//We initiate the connection
 		ClientConfig config = new ClientConfig();
-		System.out.println(food);
-		System.out.println(id);
-		Client client = ClientBuilder.newClient(config);
+		Client client = ClientBuilder.newClient(config); 
 
 		WebTarget target = (client).target(getBaseURI());
 

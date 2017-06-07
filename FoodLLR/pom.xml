@@ -8,7 +8,7 @@
 	<packaging>war</packaging>
 
 	<name>FoodLLR</name>
-	<description>This is the openFood Projet from Loïc Berthod, lucien Zuber And Robert Seligmann</description>
+	<description>This is the openFood Project from Loïc Berthod, lucien Zuber And Robert Seligmann</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -18,6 +18,7 @@
 	</parent>
 
 	<properties>
+	    <start-class>ch.hes.FoodLLR.FoodLlrApplication</start-class>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.8</java.version>
