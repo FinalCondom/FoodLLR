@@ -77,7 +77,7 @@ public class JSonReaderOpenFood {
 				food.setUnit("");
 			}	
 			try {
-				food.setQuantity(foodObject.getDouble(UNIT));
+				food.setQuantity(foodObject.getDouble(QUANTITY));
 			} catch (JSONException e) {
 				food.setQuantity(0.0);
 			}				
